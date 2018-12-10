@@ -1,8 +1,6 @@
-package com.theseus.github.spring.cassandra.config;
+package com.github.theseus.spring.cassandra.config;
 
 
-import com.datastax.driver.core.Cluster;
-import com.datastax.driver.core.Session;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.cassandra.config.CassandraCqlClusterFactoryBean;

@@ -1,4 +1,4 @@
-package com.theseus.github.spring.cassandra.config;
+package com.github.theseus.spring.cassandra.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.cassandra.config.AbstractCassandraConfiguration;

@@ -1,4 +1,4 @@
-package com.theseus.github.spring.cassandra.domain;
+package com.github.theseus.spring.cassandra.domain;
 
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;

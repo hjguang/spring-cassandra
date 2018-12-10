@@ -1,4 +1,4 @@
-package com.theseus.github.spring.cassandra;
+package com.github.theseus.spring.cassandra;
 
 import com.datastax.driver.core.Session;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -8,7 +8,7 @@ import org.springframework.data.cassandra.core.CassandraOperations;
 import org.springframework.data.cassandra.core.CassandraTemplate;
 
 @Configuration
-@ComponentScan(basePackages = "com.theseus.github.spring.cassandra.config")
+@ComponentScan(basePackages = "com.github.theseus.spring.cassandra.config")
 public class SpringaAnnotationMain {
 
     public static void main(String[] args) {

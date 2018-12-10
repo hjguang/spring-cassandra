@@ -1,8 +1,8 @@
-package com.theseus.github.spring.cassandra;
+package com.github.theseus.spring.cassandra;
 
 import com.datastax.driver.core.Cluster;
 import com.datastax.driver.core.Session;
-import com.theseus.github.spring.cassandra.domain.Person;
+import com.github.theseus.spring.cassandra.domain.Person;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.cassandra.core.CassandraOperations;
